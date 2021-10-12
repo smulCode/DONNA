@@ -482,7 +482,9 @@ img {
       grid-template-rows: max-content 1fr 1fr;
   gap: 3px;
   grid-auto-flow: row;
-      grid-template-areas: "main-image main-image" "img1 img2" "img3 img4";
+      grid-template-areas: "main-image main-image"
+ "img1 img2"
+ "img3 img4";
 }
 
 .container-img img {
@@ -1056,7 +1058,7 @@ footer {
     line-height: 2em;
   }
   .img-dropdown-women {
-    background: url(/SmullStore/img/alyssa-strohmann-Af3GEg0DMEw-unsplash.jpg);
+    background: url(../img/alyssa-strohmann-Af3GEg0DMEw-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1064,7 +1066,7 @@ footer {
     width: 100%;
   }
   .img-dropdown-men {
-    background: url(/SmullStore/img/john-cameron-YHxxjHK5NCs-unsplash.jpg);
+    background: url(../img/john-cameron-YHxxjHK5NCs-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1072,7 +1074,7 @@ footer {
     width: 100%;
   }
   .img-dropdown-gifting {
-    background: url(/SmullStore/img/pooja-chaudhary-bqnbKxiIGZI-unsplash.jpg);
+    background: url(../img/pooja-chaudhary-bqnbKxiIGZI-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -1120,7 +1122,8 @@ footer {
         grid-template-rows: 1fr 1fr;
     gap: 3px 3px;
     grid-auto-flow: row;
-        grid-template-areas: "main-image img1 img2 img3" "main-image img4 img5 img6";
+        grid-template-areas: "main-image img1 img2 img3"
+ "main-image img4 img5 img6";
     margin: 3em;
   }
   .container-img img {
