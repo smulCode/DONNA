@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/DONNA/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+<!-- FAVICON -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="/DONNA/FAVICON/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/DONNA/FAVICON/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/DONNA/FAVICON/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/DONNA/FAVICON/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/DONNA/FAVICON/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/DONNA/FAVICON/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/DONNA/FAVICON/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/DONNA/FAVICON/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/DONNA/FAVICON/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/DONNA/FAVICON/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/DONNA/FAVICON/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/DONNA/FAVICON/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/DONNA/FAVICON/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/DONNA/FAVICON/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+    <title>DONNA</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <button id="hamburger-button" class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <i class="fas fa-search" id="search-icon"></i>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              >SALE <span><i class="fas fa-chevron-right"></i></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" id="dropdown-women"
+              >WOMEN<span><i class="fas fa-chevron-right"></i></span
+            ></a>
+            <div class="dropdown-women">
+              <div class="dropdown-container">
+                <ul class="dropdown-content">
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">VIEW ALL</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">New In</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">Knitwear</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">Classics</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">T-shirt & Sweatshirts</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">Tailoring</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">Dresses</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">Accessories</a>
+                  </li>
+                </ul>
+                <div class="img-dropdown-women">
+                  <div class="dropdown-block-text">
+                    <h5 class="dropdown-sub-line">NEW COLLECTION</h5>
+                    <h2 class="dropdown-headline">ALL IS PRETTY</h2>
+                    <button class="btn">
+                      <a href="#" class="shop-link">Shop Now</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              >MEN<span><i class="fas fa-chevron-right"></i></span
+            ></a>
+            <div class="dropdown-men">
+              <div class="dropdown-container">
+                <ul class="dropdown-content">
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">VIEW ALL</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">Knitwear</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">Classics</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">T-shirt & Sweatshirts</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">Track</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">Accessories</a>
+                  </li>
+                </ul>
+                <div class="img-dropdown-men">
+                  <div class="dropdown-block-text">
+                    <h5 class="dropdown-sub-line">MEN'S</h5>
+                    <h2 class="dropdown-headline">CLASSIC COLLECTION</h2>
+                    <button class="btn">
+                      <a href="#" class="shop-link">Shop Now</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              >GIFTING<span><i class="fas fa-chevron-right"></i></span
+            ></a>
+            <div class="dropdown-gifting">
+              <div class="dropdown-container">
+                <ul class="dropdown-content">
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">VIEW ALL</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">Candles</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">Parfum</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">Homeware</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">Cushions</a>
+                  </li>
+                </ul>
+                <div class="img-dropdown-gifting">
+                  <div class="dropdown-block-text">
+                    <h5 class="dropdown-sub-line">DISCOVER MORE</h5>
+                    <h2 class="dropdown-headline">CLASSIC GIFTS COLLECTION</h2>
+                    <button class="btn">
+                      <a href="#" class="shop-link">Shop Now</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <a href="#" class="nav-logo">DONNA</a>
+
+        <ul class="nav-menu">
+          <li class="nav-item" id="search-item">
+            <i class="fas fa-search"></i>
+            <a href="#" class="nav-link">Search</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Wishlist</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Login</a>
+          </li>
+        </ul>
+        <i class="fas fa-user fa-lg" id="user-logo"></i>
+
+        <i class="fas fa-shopping-bag fa-lg" id="shopping-bag"></i>
+      </nav>
+    </header>
+
+    <section class="section-hero">
+      <div class="main">
+        <div class="block-text">
+          <h5 class="sub-line">FOR YOUR EYES ONLY</h5>
+          <h2 class="main-headline">DONNA SALE X 091</h2>
+          <button class="btn" id="shop-link-main">
+            <a href="#" class="shop-link">Shop Now</a>
+          </button>
+        </div>
+        <div class="block"></div>
+
+        <img
+          loading="eager"
+          src="/DONNA/img/christian-bolt-VW5VjskNXZ8-unsplash.jpg"
+          alt=""
+          class="model-phone"
+        />
+
+        <!-- <img
+          loading="eager"
+          src="https://images.unsplash.com/photo-1503342564391-ebb28fc32ffe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80"
+          alt=""
+          class="model-phone2"
+        /> -->
+
+        <img
+          loading="eager"
+          src="/DONNA/img/force-majeure-background1.jpg"
+          alt=""
+          class="model-phone2 "
+        />
+      </div>
+    </section>
+
+    <section class="section-newClothing">
+      <div class="features">
+        <h2 class="fade-in">NEW IN</h2>
+
+        <a href="#" class="newClothing-link">SHOP ALL NEW IN</a>
+      </div>
+      <div class="container-clothing fade-in">
+        <ul class="newclothing-list fade-in">
+          <li class="item-clothing ">
+            <div class="features-items">
+              <h5 class="top-text">NEW IN</h5>
+              <div class="wrapper">
+                <div class="icon heart">
+                  <div class="tooltip">Wishlist</div>
+                  <span><i class="far fa-heart"></i></span>
+                </div>
+                  </div>
+          
+            </div>
+            <div class="img-hover">
+              <img
+                loading="lazy"
+                src="/DONNA/img/faith-yarn-Wr0TpKqf26s-unsplash.jpg"
+                alt="clothing"
+                class="img-clothing"
+              />
+
+              <img
+                loading="lazy"
+                src="/DONNA/img/faith-yarn-jX2cntCbrAo-unsplash.jpg"
+                alt="clothing-on-model"
+                class="img-clothing-hover"
+              />
+
+              <div class="overlay-sizing">
+                <ul class="overlay-list">
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">XS</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">S</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">M</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">L</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">XL</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <p class="bottom-text">OVERSIZED T-SHIRT</p>
+            <p class="money">€110.00</p>
+            <button class="clothing-color__indicator"></button>
+            <button class="clothing-color__indicator"></button>
+          </li>
+          <li class="item-clothing">
+            <div class="features-items">
+              <h5 class="top-text">NEW IN</h5>
+              <div class="wrapper">
+                <div class="icon heart">
+                  <div class="tooltip">Wishlist</div>
+                  <span><i class="far fa-heart"></i></span>
+                </div>
+                  </div>
+            </div>
+            <div class="img-hover">
+              <img
+                loading="lazy"
+                src="/DONNA/img/faith-yarn-Wr0TpKqf26s-unsplash.jpg"
+                alt="clothing"
+                class="img-clothing"
+              />
+              <img
+                src="/DONNA/img/faith-yarn-jX2cntCbrAo-unsplash.jpg"
+                alt="clothing"
+                class="img-clothing-hover"
+              />
+              <div class="overlay-sizing">
+                <ul class="overlay-list">
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">XS</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">S</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">M</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">L</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">XL</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="bottom-text">OVERSIZED T-SHIRT</p>
+            <p class="money">€110.00</p>
+            <button class="clothing-color__indicator"></button>
+            <button class="clothing-color__indicator"></button>
+          </li>
+          <li class="item-clothing">
+            <div class="features-items">
+              <h5 class="top-text">NEW IN</h5>
+              <div class="wrapper">
+                <div class="icon heart">
+                  <div class="tooltip">Wishlist</div>
+                  <span><i class="far fa-heart"></i></span>
+                </div>
+                  </div>
+            </div>
+            <div class="img-hover">
+              <img
+                loading="lazy"
+                src="/DONNA/img/faith-yarn-Wr0TpKqf26s-unsplash.jpg"
+                alt="clothing"
+                class="img-clothing"
+              />
+              <img
+                loading="lazy"
+                src="/DONNA/img/faith-yarn-jX2cntCbrAo-unsplash.jpg"
+                alt="clothing"
+                class="img-clothing-hover"
+              />
+              <div class="overlay-sizing">
+                <ul class="overlay-list">
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">XS</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">S</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">M</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">L</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">XL</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="bottom-text">OVERSIZED T-SHIRT</p>
+            <p class="money">€110.00</p>
+            <button class="clothing-color__indicator"></button>
+            <button class="clothing-color__indicator"></button>
+          </li>
+          <li class="item-clothing">
+            <div class="features-items">
+              <h5 class="top-text">NEW IN</h5>
+              <div class="wrapper">
+                <div class="icon heart">
+                  <div class="tooltip">Wishlist</div>
+                  <span><i class="far fa-heart"></i></span>
+                </div>
+                  </div>
+            </div>
+            <div class="img-hover">
+              <img
+                loading="lazy"
+                src="/DONNA/img/faith-yarn-Wr0TpKqf26s-unsplash.jpg"
+                alt="clothing"
+                class="img-clothing"
+              />
+              <img
+                loading="lazy"
+                src="/DONNA/img/faith-yarn-jX2cntCbrAo-unsplash.jpg"
+                alt="clothing"
+                class="img-clothing-hover"
+              />
+              <div class="overlay-sizing">
+                <ul class="overlay-list">
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">XS</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">S</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">M</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">L</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">XL</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="bottom-text">OVERSIZED T-SHIRT</p>
+            <p class="money">€110.00</p>
+            <button class="clothing-color__indicator"></button>
+            <button class="clothing-color__indicator"></button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-second-hero">
+      <video
+        loading="lazy"
+        class="video-showcase"
+        src="/DONNA/video/pexels-kampus-production-5935470 (1).mp4"
+        autoplay
+        loop
+        muted
+        type="mp4"
+      ></video>
+
+      <img
+        loading="lazy"
+        src="/DONNA/img/sincerely-media-9ShY-Tq70Mc-unsplash.jpg"
+        alt="image-model"
+        class="img-showcase"
+      />
+    </section>
+
+    <section class="section-newClothing ">
+      <div class="features">
+        <h2>FITS YOU</h2>
+
+        <a href="#" class="newClothing-link">SHOP NOW</a>
+      </div>
+      <div class="container-clothing fade-in">
+        <ul class="newclothing-list">
+          <li class="item-clothing">
+            <div class="features-items">
+              <h5 class="top-text">NEW IN</h5>
+                 <div class="wrapper">
+                <div class="icon heart">
+                  <div class="tooltip">Wishlist</div>
+                  <span><i class="far fa-heart"></i></span>
+                </div>
+                  </div>
+            </div>
+            <div class="img-hover">
+              <img
+                loading="lazy"
+                src="/DONNA/img/faith-yarn-Wr0TpKqf26s-unsplash.jpg"
+                alt="clothing"
+                class="img-clothing"
+              />
+              <img
+                loading="lazy"
+                src="/DONNA/img/faith-yarn-jX2cntCbrAo-unsplash.jpg"
+                alt="clothing"
+                class="img-clothing-hover"
+              />
+              <div class="overlay-sizing">
+                <ul class="overlay-list">
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">XS</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">S</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">M</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">L</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">XL</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="bottom-text">OVERSIZED T-SHIRT</p>
+            <p class="money">€110.00</p>
+            <button class="clothing-color__indicator"></button>
+            <button class="clothing-color__indicator"></button>
+          </li>
+          <li class="item-clothing">
+            <div class="features-items">
+              <h5 class="top-text">NEW IN</h5>
+              <div class="wrapper">
+                <div class="icon heart">
+                  <div class="tooltip">Wishlist</div>
+                  <span><i class="far fa-heart"></i></span>
+                </div>
+                  </div>
+            </div>
+            <div class="img-hover">
+              <img
+                loading="lazy"
+                src="/DONNA/img/faith-yarn-Wr0TpKqf26s-unsplash.jpg"
+                alt="clothing"
+                class="img-clothing"
+              />
+              <img
+                loading="lazy"
+                src="/DONNA/img/faith-yarn-jX2cntCbrAo-unsplash.jpg"
+                alt="clothing"
+                class="img-clothing-hover"
+              />
+              <div class="overlay-sizing">
+                <ul class="overlay-list">
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">XS</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">S</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">M</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">L</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">XL</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="bottom-text">OVERSIZED T-SHIRT</p>
+            <p class="money">€110.00</p>
+            <button class="clothing-color__indicator"></button>
+            <button class="clothing-color__indicator"></button>
+          </li>
+          <li class="item-clothing">
+            <div class="features-items">
+              <h5 class="top-text">NEW IN</h5>
+                 <div class="wrapper">
+                <div class="icon heart">
+                  <div class="tooltip">Wishlist</div>
+                  <span><i class="far fa-heart"></i></span>
+                </div>
+                  </div>
+            </div>
+            <div class="img-hover">
+              <img
+                loading="lazy"
+                src="/DONNA/img/faith-yarn-Wr0TpKqf26s-unsplash.jpg"
+                alt="clothing"
+                class="img-clothing"
+              />
+              <img
+                loading="lazy"
+                src="/DONNA/img/faith-yarn-jX2cntCbrAo-unsplash.jpg"
+                alt="clothing"
+                class="img-clothing-hover"
+              />
+              <div class="overlay-sizing">
+                <ul class="overlay-list">
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">XS</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">S</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">M</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">L</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">XL</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="bottom-text">OVERSIZED T-SHIRT</p>
+            <p class="money">€110.00</p>
+            <button class="clothing-color__indicator"></button>
+            <button class="clothing-color__indicator"></button>
+          </li>
+          <li class="item-clothing">
+            <div class="features-items">
+              <h5 class="top-text">NEW IN</h5>
+                 <div class="wrapper">
+                <div class="icon heart">
+                  <div class="tooltip">Wishlist</div>
+                  <span><i class="far fa-heart"></i></span>
+                </div>
+                  </div>
+            </div>
+            <div class="img-hover">
+              <img
+                loading="lazy"
+                src="/DONNA/img/faith-yarn-Wr0TpKqf26s-unsplash.jpg"
+                alt="clothing"
+                class="img-clothing"
+              />
+              <img
+                loading="lazy"
+                src="/DONNA/img/faith-yarn-jX2cntCbrAo-unsplash.jpg"
+                alt="clothing"
+                class="img-clothing-hover"
+              />
+              <div class="overlay-sizing">
+                <ul class="overlay-list">
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">XS</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">S</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">M</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">L</a>
+                  </li>
+                  <li class="overlay-item">
+                    <a href="#" class="overlay-link">XL</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="bottom-text">OVERSIZED T-SHIRT</p>
+            <p class="money">€110.00</p>
+            <button class="clothing-color__indicator"></button>
+            <button class="clothing-color__indicator"></button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-categories">
+      <div class="container-load-BG">
+
+        <ul class="categories-list">
+          <li class="categories-link"><a href="#" class="flip-animate"><span data-hover="KNITWEAR">KNITWEAR</span></a></li>
+          <li class="categories-link"><a href="#" class="flip-animate"><span data-hover="CLASSICS">CLASSICS</span></a></li>
+          <li class="categories-link"><a href="#"class="flip-animate"><span data-hover="T-SHIRTS">T-SHIRTS</span></a></li>
+          <li class="categories-link"><a href="#"class="flip-animate"><span data-hover="SWEATSHIRTS">SWEATSHIRTS</span></a></li>
+          <li class="categories-link"><a href="#"class="flip-animate"><span data-hover="TAILORING">TAILORING</span></a></li>
+          <li class="categories-link"><a href="#"class="flip-animate"><span data-hover="DRESSES">DRESSES</span></a></li>
+          <li class="categories-link"><a href="#"class="flip-animate"><span data-hover="ACCESSORIES">ACCESSORIES</span></a></li>
+         
+        </ul>
+     
+      </div>
+
+     
+    </section>
+
+    <section class="section-instagram">
+      <div class="features">
+        <h2>INSTAGRAM</h2>
+        <div class="insta-link">
+          <i class="fab fa-instagram" id="instagram-icon"></i
+          ><a href="#" class="instagram-account">@Donna_S</a>
+        </div>
+      </div>
+
+      <ul class="container-img ">
+       
+
+
+       <li class="container-img-item main-image">
+        <div class="content">
+          <a href="#" class="img-insta-link">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="/DONNA/img/shayan-rti-jRdXolKRYUU-unsplash.jpg">
+            <div class="content-details fadeIn-bottom fadeIn-right"><i class="fab fa-instagram" id="instagram-icon-overlay"></i></div>
+              </a>
+            </li>
+       <li class="container-img-item">
+        <div class="content">
+          <a href="#" class="img-insta-link">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="/DONNA/img/agus-WfJBPWt-5ps-unsplash.jpg">
+            <div class="content-details fadeIn-bottom fadeIn-right"><i class="fab fa-instagram" id="instagram-icon-overlay"></i></div>
+              </a>
+            </li>
+
+            <li class="container-img-item">
+              <div class="content">
+                <a href="#" class="img-insta-link">
+                  <div class="content-overlay"></div>
+                  <img class="content-image" src="/DONNA/img/mariya-georgieva-0O6Fv3Ff_XI-unsplash.jpg">
+                  <div class="content-details fadeIn-bottom fadeIn-right"><i class="fab fa-instagram" id="instagram-icon-overlay"></i></div>
+                    </a>
+                  </li>
+
+            <li class="container-img-item">
+              <div class="content">
+                <a href="#" class="img-insta-link">
+                  <div class="content-overlay"></div>
+                  <img class="content-image" src="/DONNA/img/alyssa-strohmann-Af3GEg0DMEw-unsplash.jpg">
+                  <div class="content-details fadeIn-bottom fadeIn-right"><i class="fab fa-instagram" id="instagram-icon-overlay"></i></div>
+                    </a>
+                  </li>
+            <li class="container-img-item">
+              <div class="content">
+                <a href="#" class="img-insta-link">
+                  <div class="content-overlay"></div>
+                  <img class="content-image" src="/DONNA/img/emmanuel-zua-O2LLAZlaUFA-unsplash.jpg">
+                  <div class="content-details fadeIn-bottom fadeIn-right"><i class="fab fa-instagram" id="instagram-icon-overlay"></i></div>
+                    </a>
+                  </li>
+            <li class="container-img-item">
+              <div class="content">
+                <a href="#" class="img-insta-link">
+                  <div class="content-overlay"></div>
+                  <img class="content-image" src="/DONNA/img/pooja-chaudhary-bqnbKxiIGZI-unsplash.jpg">
+                  <div class="content-details fadeIn-bottom fadeIn-right"><i class="fab fa-instagram" id="instagram-icon-overlay"></i></div>
+                    </a>
+                  </li>
+            <li class="container-img-item">
+              <div class="content">
+                <a href="#" class="img-insta-link">
+                  <div class="content-overlay"></div>
+                  <img class="content-image" src="/DONNA/img/shamim-nakhaei-3skaWa2xrpg-unsplash.jpg">
+                  <div class="content-details fadeIn-bottom fadeIn-right"><i class="fab fa-instagram" id="instagram-icon-overlay"></i></div>
+                    </a>
+                  </li>
+
+   
+      
+   
+        
+      </ul>
+    </section>
+
+    
+
+    
+    <footer>
+      <div class="container-footer">
+        <a href="#" class="nav-logo">DONNA</a>
+        <div class="container-row">
+          <div class="sub-container">
+            <h3>DELIVERY & RETURN</h3>
+            <p>Free EU Standard Delivery on all orders over €200</p>
+            <a href="#">See more</a>
+          </div>
+          <div class="sub-container">
+            <h3>MY ACCOUNT</h3>
+            <p>To acces your account</p>
+            <a href="#">See more</a>
+          </div>
+          <div class="sub-container">
+            <h3>NEED HELP?</h3>
+            <p>Monday to Friday: 10.00am - 4.00pm</p>
+            <a href="#">See more</a>
+          </div>
+        </div>
+      </div>
+      <section class="signUp">
+        <h2>SIGN UP TO OUR NEWSLETTER LIST</h2>
+
+        <form class="signUp-form">
+          <i class="far fa-envelope" id="envelop"></i>
+          <input
+            type="email"
+            class="email"
+            placeholder="EMAIL ADDRESS"
+            id="email"
+            name="email"
+            required
+          /><button type="submit" class="sub-btn" id="submit">
+            <span><i class="fas fa-arrow-right"></i></span>
+          </button>
+        </form>
+
+        <i class="fab fa-facebook" id="faceBook-logo"></i
+        ><i class="fab fa-instagram" id="instagram-logo"></i>
+      </section>
+
+      <section class="location-shop">
+        <div class="container-flex">
+          <img
+            loading="lazy"
+            src="/DONNA/img/john-cameron-YHxxjHK5NCs-unsplash.jpg"
+            alt=""
+            class="img-shop"
+          />
+          <div class="location-text">
+            <h5 class="light-h4">YOUR NEAREST STORE</h5>
+            <h3>91 NEWNETHER STREET</h3>
+            <p>Donna</p>
+            <p>91 Newnether Street</p>
+            <p>London</p>
+            <p>W1U 7LX</p>
+            <a href="+4402079350778" class="phone-number"
+              >T:+44 (0) 20 7935 0778</a
+            >
+            <p>Nearest tube station: Baker Street</p>
+
+            <a href="#" class="view-store">VIEW STORE</a>
+          </div>
+
+          <div class="footer-menu">
+            <ul>
+              <li><a href="#" class="flip-animate"><span data-hover="BIOGRAPHY">BIOGRAPHY</span></a></li>
+              <li><a href="#" class="flip-animate"><span data-hover="FILMOGRAPHY">FILMOGRAPHY</span></a></li>
+              <li><a href="#" class="flip-animate"><span data-hover="HAPPENINGS">HAPPENINGS</span></a></li>
+              <li><a href="#" class="flip-animate"><span data-hover="MY ACCOUNT">MY ACCOUNT</span></a></li>
+              <li><a href="#" class="flip-animate"><span data-hover="DELIVERY & RETURNS">DELIVERY & RETURNS</span></a></li>
+              <li><a href="#" class="flip-animate"><span data-hover="CONTACT US">CONTACT US</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="inner-footer">
+        <p>© 2021 Donna | Created by smullCode</p>
+
+        <ul class="footer-sub-menu">
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Stockist</a></li>
+          <li><a href="#">Privacy & Policy Notice</a></li>
+          <li><a href="#">Legal</a></li>
+        </ul>
+      </section>
+    </footer>
+
+    <!-- 
+    Photo by
+    <a
+      href="https://unsplash.com/@christianbolt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Christian Bolt</a
+    >
+    on
+    <a
+      href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Unsplash</a
+    >
+    Photo by
+    <a
+      href="https://unsplash.com/@faithandyarn_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Faith & Yarn</a
+    >
+    on
+    <a
+      href="https://unsplash.com/collections/883366/model?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Unsplash</a
+    >
+
+    Photo by
+    <a
+      href="https://unsplash.com/@henmankk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Keagan Henman</a
+    >
+    on
+    <a
+      href="https://unsplash.com/s/photos/clothing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Unsplash</a
+    >
+
+    <a
+      href="https://www.pexels.com/video/picking-a-shirt-in-a-clothing-rack-7764692/"
+      class=""
+      >Video by cottonbro from Pexels</a
+    >
+
+    Photo by
+    <a
+      href="https://unsplash.com/@sincerelymedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Sincerely Media</a
+    >
+    on
+    <a
+      href="https://unsplash.com/s/photos/model-t-shirt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Unsplash</a
+    >
+
+    Photo by
+    <a
+      href="https://unsplash.com/@forcemajeure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Force Majeure</a
+    >
+    on
+    <a
+      href="https://unsplash.com/s/photos/model-t-shirt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Unsplash</a
+    >
+
+    Photo by
+    <a
+      href="https://unsplash.com/@we_are_details?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Ilona Panych</a
+    >
+    on
+    <a
+      href="https://unsplash.com/s/photos/model?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Unsplash</a
+    >
+
+    Photo by
+    <a
+      href="https://unsplash.com/@mariyageorgieva?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Mariya Georgieva</a
+    >
+    on
+    <a
+      href="https://unsplash.com/s/photos/fashion?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Unsplash</a
+    >
+
+    Photo by
+    <a
+      href="https://unsplash.com/@anotherlovely?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Alyssa Strohmann</a
+    >
+    on
+    <a
+      href="https://unsplash.com/s/photos/fashion?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Unsplash</a
+    >
+    Photo by
+    <a
+      href="https://unsplash.com/@agusu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >agus</a
+    >
+    on
+    <a
+      href="https://unsplash.com/s/photos/clothes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Unsplash</a
+    >
+
+    Photo by
+    <a
+      href="https://unsplash.com/@john_cameron?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >John Cameron</a
+    >
+    on
+    <a
+      href="https://unsplash.com/s/photos/fashion-store?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >Unsplash</a
+    > 
+  
+  Photo by <a href="https://unsplash.com/@threepointswheretwolinesmeet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pooja Chaudhary</a> on <a href="https://unsplash.com/s/photos/fashion?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+  Photo by <a href="https://unsplash.com/@shamimnakhaei?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Shamim Nakhaei</a> on <a href="https://unsplash.com/s/photos/fashion?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+  Video by Tima Miroshnichenko from Pexels
+  -->
+
+    <script type="text/javascript" src="/DONNA/Js/main.js"></script>
+  </body>
+</html>
